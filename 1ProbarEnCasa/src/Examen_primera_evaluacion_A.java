@@ -45,7 +45,7 @@ public class Examen_primera_evaluacion_A {
 		// El usuario quiere Calcular el numero de vocales
 		if (opcionUsuario == 1) {
 		System.out.println("Escriba la palabra para calcular sus vocales");
-/* ++		hacer así? da mal por poner otro if.
+/* ++		hacer asï¿½? da mal por poner otro if.
 		Scanner numVocales = new Scanner(System.in);
 		String vocales = numVocales.nextLine();
 			for (int i = 0; i < vocales.length(); i++) {
@@ -73,7 +73,9 @@ public class Examen_primera_evaluacion_A {
 		// El usuario quiere Calcular el numero de mayusculas
 		else if (opcionUsuario == 3) {
 			
-		System.out.println("\nEl el numero de mayusculas es: " );
+		//System.out.println("\nEl el numero de mayusculas es: " );
+		System.out.println("\nEscriba el texto para ponerlo en mayuscula" );
+
 		}
 		
 		// El usuario quiere Mostrar texto en mayusculas
@@ -84,6 +86,13 @@ public class Examen_primera_evaluacion_A {
 		String textoMayuscula = sc4.nextLine();
 		
 		System.out.println("El texto en mayuscula es: " + textoMayuscula.toUpperCase());
+		
+		/*
+		Scanner sc3 = new Scanner(System.in);
+		String textoMinuscula = sc3.nextLine();
+		System.out.println("El texto en minuscula es: " + textoMinuscula.toLowerCase());		// te pone el texto en minusculas
+		*/
+		
 		}
 
 		// El usuario quiere finalizar aplicacion
